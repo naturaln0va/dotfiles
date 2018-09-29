@@ -1,0 +1,6 @@
+cd ~/Developer
+set -g -x fish_greeting ''
+set -x GOPATH $HOME/Developer/golang
+set -x PATH $HOME/.fastlane/bin $PATH
+
+alias edit="open -a /Applications/Visual\ Studio\ Code.app"
